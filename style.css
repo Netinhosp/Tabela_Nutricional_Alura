@@ -1,0 +1,113 @@
+/*Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    font-family: 'inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Estilo da home */
+
+.container {
+    width: 100%;
+    max-width: 107rem;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+}
+
+header .container h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: .5rem 0;
+}
+
+.s-hero .container h2 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+
+.s-hero table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 500;
+    margin-top: 2rem;
+    table-layout: fixed;
+}
+
+.s-hero .container table thead th,
+.s-hero .container table #tabela-pacientes td {
+    border: 2px solid gray;
+    text-align: center;
+    overflow: hidden;
+}
+
+.s-hero .container table thead th {
+    background: #ddd;
+    padding: 1.5rem;
+}
+
+.s-hero .container table #tabela-pacientes td {
+    padding: 1rem;
+}
+
+.paciente-invalido {
+    background-color: lightcoral;
+}
+
+section #titulo-form {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+#mensagens-erro {
+    color: red;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+section form {
+    margin-top: 2rem;
+}
+
+section form .grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+section form div input {
+    padding: .7rem;
+}
+
+section form div label {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+section form div #nome {
+    width: 100%;
+}
+
+section form #adicionar-paciente {
+    background-color: rgb(34, 137, 255);
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+}
