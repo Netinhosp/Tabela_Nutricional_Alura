@@ -111,3 +111,8 @@ section form #adicionar-paciente {
     padding: 1rem 3rem;
     margin: 2rem 0;
 }
+
+.fadeOut {
+    opacity: 0;
+    transition: .5s;
+}
